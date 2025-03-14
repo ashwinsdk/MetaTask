@@ -1,4 +1,4 @@
-# Task Management DApp
+# MetaTask
 
 A decentralized task management application with wallet authentication, task creation, and task completion tracking.
 
