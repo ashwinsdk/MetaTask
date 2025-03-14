@@ -10,17 +10,17 @@ A decentralized task management application with wallet authentication, task cre
 - Wallet-based authentication (MetaMask)
 - Add, modify, and delete tasks
 - Task completion tracking
-- Animated UI for smooth user experience
+- Smooth user experience
 
 ---
 
 ## Prerequisites
 Ensure you have the following installed on your system:
 - **Node.js** (v16+ recommended)
-- **NPM** or **Yarn**
+- **NPM** 
 - **MetaMask Extension** (for testing authentication)
 - **Hardhat** (for smart contract development)
-- **Ganache or Hardhat Network** (for local blockchain deployment)
+- **Sepolia Network** (for blockchain deployment)
 
 ---
 
@@ -51,6 +51,10 @@ npx hardhat node
 ### 5. Deploy Smart Contract
 ```bash
 npx hardhat run scripts/deploy.js --network sepolia
+```
+### Deployed Contract Address
+```bash
+0x017c0108d7E2BECbD4D08056d8AC42f9EF7E72B5
 ```
 
 ---
@@ -91,6 +95,7 @@ Use either of these commands:
 - The smart contract is deployed on the Sepolia Testnet using Infura.
 - Update the frontend contract address after deployment.
 - Ensure you have Sepolia ETH for gas fees (use Sepolia Faucet).
+
 ### Future Enhancements
 - Integration with IPFS for decentralized storage
 - Role-based access control
